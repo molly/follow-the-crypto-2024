@@ -1,0 +1,53 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/skeletons/skeleton.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes skeleton_pulse__ZQ037 {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: -135% 0%;
+  }
+}
+
+.skeleton_pulse__ZQ037 {
+  background: linear-gradient(
+    -90deg,
+    var(--skeleton-start) 0%,
+    var(--skeleton-end) 50%,
+    var(--skeleton-start) 100%
+  );
+  background-size: 400% 400%;
+  animation: skeleton_pulse__ZQ037 1.2s ease-in-out infinite;
+}
+
+.skeleton_cardPulse__8Jcqz {
+  background: linear-gradient(
+    -90deg,
+    var(--skeleton-on-card-start) 0%,
+    var(--skeleton-on-card-end) 50%,
+    var(--skeleton-on-card-start) 100%
+  );
+  background-size: 400% 400%;
+  animation: skeleton_pulse__ZQ037 1.2s ease-in-out infinite;
+}
+
+.skeleton_skeletonLayout__9ROdn {
+  width: 100%;
+  height: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.skeleton_skeleton__OW6su {
+}
+
+.skeleton_skeletonCard__1N4Yg {
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/(drilldown)/companies/page.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.page_subhead__c2tmY {
+  margin: 1rem 0 0 0;
+}
+

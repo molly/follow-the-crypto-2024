@@ -1,0 +1,372 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/skeletons/skeleton.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes skeleton_pulse__ZQ037 {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: -135% 0%;
+  }
+}
+
+.skeleton_pulse__ZQ037 {
+  background: linear-gradient(-90deg, var(--skeleton-start) 0%, var(--skeleton-end) 50%, var(--skeleton-start) 100%);
+  background-size: 400% 400%;
+  animation: skeleton_pulse__ZQ037 1.2s ease-in-out infinite;
+}
+
+.skeleton_cardPulse__8Jcqz {
+  background: linear-gradient(
+    -90deg,
+    var(--skeleton-on-card-start) 0%,
+    var(--skeleton-on-card-end) 50%,
+    var(--skeleton-on-card-start) 100%
+  );
+  background-size: 400% 400%;
+  animation: skeleton_pulse__ZQ037 1.2s ease-in-out infinite;
+}
+
+.skeleton_skeletonLayout__9ROdn {
+  width: 100%;
+  height: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.skeleton_skeleton__OW6su {
+}
+
+.skeleton_skeletonCard__1N4Yg {
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/shared.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.shared_mainLayout__4NX_F {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.shared_mainWithHeader__yGRcu {
+  margin-top: 1rem;
+}
+
+.shared_accent-text__nK7Vn {
+  color: transparent;
+  text-shadow: 0.1rem 0.1rem var(--accent);
+  text-stroke: 1px var(--text-stroke);
+  -webkit-text-stroke: 1px var(--text-stroke);
+}
+
+.shared_title__A8PMZ {
+  text-shadow: 0.25rem 0.25rem var(--accent);
+  font-size: clamp(2rem, 10vw, 8rem);
+  text-align: center;
+  margin: 0;
+}
+
+.shared_titleH2__rBo8F {
+  font-size: clamp(2rem, 8vw, 5rem);
+}
+
+.shared_titleH3__db_ED {
+  font-size: clamp(2rem, 6vw, 4rem);
+}
+
+.shared_card__vLMY7 {
+  background: var(--card-background);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--card-border);
+  padding: 1rem;
+}
+
+.shared_errorCardContent__DJ6u_ {
+  height: 100%;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.shared_errorCardContentStandalone__HsqZZ {
+  height: 100%;
+  padding: 1rem;
+  min-height: 5rem;
+}
+
+.shared_cardWithTable__88_dt {
+  padding: 0;
+}
+
+.shared_smallCard___qBml {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-width: 15rem;
+  max-width: 25rem;
+}
+
+.shared_smallCardSkeleton__eKdyb {
+  display: flex;
+  justify-content: center;
+}
+
+.shared_constrainedWrapper__Bj9t2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: inherit;
+  width: 100%;
+}
+
+.shared_constrainWidth__Mbrf_ {
+  max-width: 40rem;
+  width: 100%;
+  height: 100%;
+}
+
+.shared_highlight__1FBBy {
+  padding: 0.25rem 0 0.5rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.shared_plainList__28QPz {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.shared_plainListItem__aIqSo {
+  padding: 0.5rem 0;
+}
+
+.shared_hasFade__X3XVU {
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-position:
+    0 0,
+    100% 0;
+  mask-position:
+    0 0,
+    100% 0;
+  -webkit-mask-repeat: no-repeat, no-repeat;
+  mask-repeat: no-repeat, no-repeat;
+}
+
+.shared_goalAccomplished__VoGi0,
+.shared_checkmark__oVQoP {
+  fill: green;
+  max-width: 1rem;
+}
+
+.shared_goalFailed__Z8U0c,
+.shared_xMark__x6Jfx {
+  fill: red;
+  max-width: 1rem;
+}
+
+.shared_goalMixed__FPjTO {
+  fill: var(--main-text);
+  max-width: 1rem;
+  font-weight: bold;
+}
+
+.shared_goalInline__mCrjQ {
+  max-height: 100%;
+}
+
+@media (min-width: 500px) {
+  .shared_highlight__1FBBy {
+    font-size: clamp(2rem, 5vw, 3rem);
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 1200px) {
+  .shared_mainLayout__4NX_F {
+    padding: 0.5rem 2rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .shared_mainLayout__4NX_F {
+    padding: 0.5rem 4rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  .shared_mainLayout__4NX_F {
+    padding: 0.5rem 6rem;
+  }
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/(drilldown)/states/[state]/page.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+.page_page__521UP {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: inherit;
+}
+
+.page_totalSpendingCard__KiwmK {
+  align-self: center;
+}
+
+.page_raceAndCommitteeSection__3JHg6 {
+  display: flex;
+  gap: inherit;
+}
+
+.page_raceCard__KFs_g {
+  width: 50%;
+}
+
+.page_committeeCard__NNWNt {
+  width: 50%;
+}
+
+.page_cardSection___9R8Q {
+  &:not(:last-child) {
+    padding-bottom: 3rem;
+  }
+}
+
+.page_cardSubsection__3U5RL {
+  padding-left: 1rem;
+}
+
+.page_candidateResultWithImage__hgAjG {
+  display: flex;
+  align-items: center;
+  white-space-collapse: preserve;
+  margin-top: 1rem;
+}
+
+.page_skeletonContainer__rdWLr {
+  width: 100%;
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .page_raceAndCommitteeSection__3JHg6 {
+    flex-direction: column;
+  }
+
+  .page_raceCard__KFs_g,
+  .page_committeeCard__NNWNt {
+    width: 100%;
+  }
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/candidate.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.candidate_candidateInfoBlock__hmXVi {
+  display: flex;
+  align-items: center;
+}
+
+.candidate_candidateImageWrapper___X5Ex {
+  display: inherit;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border-width: 4px;
+  border-style: solid;
+  width: 58px;
+  height: 58px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  color: var(--placeholder-color);
+}
+
+.candidate_chartCandidateImageWrapper__y_yY4 {
+  width: 24px;
+  height: 24px;
+  border-width: 2px;
+}
+
+.candidate_candidateImage__KIOVE {
+  display: inherit;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.candidate_noMargins___A7xf {
+  margin-left: 0;
+}
+
+.candidate_chartCandidateImage__2bdog,
+.candidate_chartPlaceholderImage__pURfZ {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.candidate_placeholderImage__Sdi4N {
+  width: 50px;
+  height: 50px;
+}
+
+.candidate_unknownCandidateQuestionMark__R_jOG {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--card-background);
+  font-weight: bold;
+  font-size: 300px;
+}
+
+.candidate_unknownCandidateText__HYjSt {
+  color: var(--secondary-text);
+  font-style: italic;
+}
+
+.candidate_defeatedCandidateImage__GvmVO {
+  position: relative;
+  &:after {
+    content: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 96 96" enable-background="new 0 0 96 96" xml:space="preserve"><polygon fill="red" points="96,14 82,0 48,34 14,0 0,14 34,48 0,82 14,96 48,62 82,96 96,82 62,48 "/></svg>');
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.candidate_party-R__h2sTR {
+  border-color: var(--party-republican);
+}
+
+.candidate_party-D__tkHf_ {
+  border-color: var(--party-democrat);
+}
+
+.candidate_party-L__mNUAW {
+  border-color: var(--party-libertarian);
+}
+
+.candidate_party-G__T0dxy {
+  border-color: var(--party-green);
+}
+
+.candidate_party-I__do0rW {
+  border-color: var(--party-independent);
+}
+
+.candidate_party-unknown__5OALt {
+  border-color: var(--color-slate-500);
+}
+
+.candidate_party-loading__YCZ9T {
+  border-color: var(--skeleton-end);
+}

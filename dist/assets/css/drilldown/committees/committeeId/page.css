@@ -1,0 +1,680 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/informationalTooltip.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+.informationalTooltip_tooltipButton__qD_0e {
+  background-color: transparent;
+  border-width: 0;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  padding: 0;
+  cursor: pointer;
+}
+
+.informationalTooltip_tooltip__SR1Td {
+  padding: 0.5rem;
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--card-border);
+  border-radius: 4px;
+  background-color: var(--card-background);
+  max-width: 12rem;
+  font-size: 0.9rem;
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/skeletons/skeleton.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes skeleton_pulse__ZQ037 {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: -135% 0%;
+  }
+}
+
+.skeleton_pulse__ZQ037 {
+  background: linear-gradient(
+    -90deg,
+    var(--skeleton-start) 0%,
+    var(--skeleton-end) 50%,
+    var(--skeleton-start) 100%
+  );
+  background-size: 400% 400%;
+  animation: skeleton_pulse__ZQ037 1.2s ease-in-out infinite;
+}
+
+.skeleton_cardPulse__8Jcqz {
+  background: linear-gradient(
+    -90deg,
+    var(--skeleton-on-card-start) 0%,
+    var(--skeleton-on-card-end) 50%,
+    var(--skeleton-on-card-start) 100%
+  );
+  background-size: 400% 400%;
+  animation: skeleton_pulse__ZQ037 1.2s ease-in-out infinite;
+}
+
+.skeleton_skeletonLayout__9ROdn {
+  width: 100%;
+  height: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.skeleton_skeleton__OW6su {
+}
+
+.skeleton_skeletonCard__1N4Yg {
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/shared.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.shared_mainLayout__4NX_F {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.shared_mainWithHeader__yGRcu {
+  margin-top: 1rem;
+}
+
+.shared_accent-text__nK7Vn {
+  color: transparent;
+  text-shadow: 0.1rem 0.1rem var(--accent);
+  text-stroke: 1px var(--text-stroke);
+  -webkit-text-stroke: 1px var(--text-stroke);
+}
+
+.shared_title__A8PMZ {
+  text-shadow: 0.25rem 0.25rem var(--accent);
+  font-size: clamp(2rem, 10vw, 8rem);
+  text-align: center;
+  margin: 0;
+}
+
+.shared_titleH2__rBo8F {
+  font-size: clamp(2rem, 8vw, 5rem);
+}
+
+.shared_titleH3__db_ED {
+  font-size: clamp(2rem, 6vw, 4rem);
+}
+
+.shared_card__vLMY7 {
+  background: var(--card-background);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--card-border);
+  padding: 1rem;
+}
+
+.shared_errorCardContent__DJ6u_ {
+  height: 100%;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.shared_errorCardContentStandalone__HsqZZ {
+  height: 100%;
+  padding: 1rem;
+  min-height: 5rem;
+}
+
+.shared_cardWithTable__88_dt {
+  padding: 0;
+}
+
+.shared_smallCard___qBml {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-width: 15rem;
+  max-width: 25rem;
+}
+
+.shared_smallCardSkeleton__eKdyb {
+  display: flex;
+  justify-content: center;
+}
+
+.shared_constrainedWrapper__Bj9t2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: inherit;
+  width: 100%;
+}
+
+.shared_constrainWidth__Mbrf_ {
+  max-width: 40rem;
+  width: 100%;
+  height: 100%;
+}
+
+.shared_highlight__1FBBy {
+  padding: 0.25rem 0 0.5rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.shared_plainList__28QPz {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.shared_plainListItem__aIqSo {
+  padding: 0.5rem 0;
+}
+
+.shared_hasFade__X3XVU {
+  -webkit-mask-size: 100% 100%;
+          mask-size: 100% 100%;
+  -webkit-mask-position:
+    0 0,
+    100% 0;
+          mask-position:
+    0 0,
+    100% 0;
+  -webkit-mask-repeat: no-repeat, no-repeat;
+          mask-repeat: no-repeat, no-repeat;
+}
+
+.shared_goalAccomplished__VoGi0,
+.shared_checkmark__oVQoP {
+  fill: green;
+  max-width: 1rem;
+}
+
+.shared_goalFailed__Z8U0c,
+.shared_xMark__x6Jfx {
+  fill: red;
+  max-width: 1rem;
+}
+
+.shared_goalMixed__FPjTO {
+  fill: var(--main-text);
+  max-width: 1rem;
+  font-weight: bold;
+}
+
+.shared_goalInline__mCrjQ {
+  max-height: 100%;
+}
+
+@media (min-width: 500px) {
+  .shared_highlight__1FBBy {
+    font-size: clamp(2rem, 5vw, 3rem);
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 1200px) {
+  .shared_mainLayout__4NX_F {
+    padding: 0.5rem 2rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .shared_mainLayout__4NX_F {
+    padding: 0.5rem 4rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  .shared_mainLayout__4NX_F {
+    padding: 0.5rem 6rem;
+  }
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/(drilldown)/committees/[committeeId]/page.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************/
+.page_page__FAplZ {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: inherit;
+}
+
+.page_description__LlmpJ {
+  margin-top: 1rem;
+}
+
+.page_committeeWrapper__8YjuX {
+  display: flex;
+  gap: inherit;
+  align-items: flex-start;
+}
+
+.page_committeeName__3yhKO {
+  margin: 0;
+  text-align: left;
+}
+
+.page_moneyCardRow__UX7xl {
+  display: grid;
+  grid-gap: inherit;
+  gap: inherit;
+  grid-template-columns: repeat(2, minmax(10rem, 25rem));
+  margin: 0 auto;
+}
+
+.page_rightColumn__Skt5E {
+  display: flex;
+  flex-direction: column;
+  gap: inherit;
+}
+
+.page_receiptsSection__HIYdB {
+  text-align: center;
+}
+
+.page_receipts__hhcgt {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.page_raisedDetails__0aOS6 {
+  margin-top: 1rem;
+}
+
+.page_donorSection__NXGDd {
+  width: 66%;
+  padding: 1rem 0;
+}
+
+.page_donorSectionHeader__aOAmx {
+  padding: 0 1rem;
+  font-size: 1.5rem;
+}
+
+.page_donorRow__PtyKb {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+
+  &:nth-child(even) {
+    background: var(--table-background-secondary);
+  }
+}
+
+.page_donorSummary__MMoPr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.page_redactedName__kPq0k {
+  font-style: italic;
+  margin-right: 0.2rem;
+}
+
+.page_donorBlock__sDqJN {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.page_contributionsContainer__PcJgq {
+  display: flex;
+  flex-direction: column;
+}
+
+.page_donorSubRow__ogfdj {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1rem;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.page_subRowCurrency__rFPNR {
+  color: var(--secondary-text);
+}
+
+.page_donorOccupation__EY6PG {
+  color: var(--secondary-text);
+  font-style: italic;
+}
+
+.page_donorCompany__BI1du {
+  font-weight: bold;
+}
+
+.page_aliasAndDate__U00wy {
+  align-items: center;
+}
+
+.page_donorDate__HZ1CM {
+  font-size: 1rem;
+  align-self: center;
+  white-space-collapse: preserve;
+}
+
+.page_donorDateRange__76gqq {
+  margin-left: 1rem;
+}
+
+.page_topLevelContribution__7ovx8 {
+  color: var(--main-text);
+}
+
+.page_disbursementsCard__YqaJH {
+  align-self: flex-start;
+}
+
+.page_committeeDisbursementsList__V7FjQ {
+  list-style: none;
+  padding: 0;
+}
+
+.page_committeeDisbursementsListItem__emaAe {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25em 0;
+}
+
+@media (max-width: 576px) {
+  .page_moneyCardRow__UX7xl {
+    grid-template-columns: minmax(16rem, 25rem);
+  }
+
+  .page_donorSubRow__ogfdj {
+    margin-left: 0;
+    align-items: flex-start;
+  }
+
+  .page_donorBlock__sDqJN {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .page_donorOccupation__EY6PG,
+  .page_donorDate__HZ1CM {
+    display: block;
+    align-self: unset;
+  }
+}
+
+@media (min-width: 577px) {
+  .page_donorOccupation__EY6PG {
+    &:before {
+      content: " | ";
+      font-style: normal;
+    }
+  }
+
+  .page_donorDate__HZ1CM {
+    &:before {
+      content: " – ";
+      font-style: normal;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .page_constrainedWrapper__5fHJE {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 1000px) {
+  .page_committeeWrapper__8YjuX {
+    width: 100%;
+    min-width: 20rem;
+    max-width: 60rem;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+  }
+
+  .page_donorSection__NXGDd,
+  .page_rightColumn__Skt5E {
+    width: 100%;
+  }
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/recentExpenditures.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+.recentExpenditures_recentExpendituresSectionHeader__mr_xY {
+  padding: 1rem 1rem 0 1rem;
+  font-size: 1.5rem;
+}
+
+.recentExpenditures_recentExpenditureRow__sV1j1 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+
+  &:nth-child(even) {
+    background: var(--table-background-secondary);
+  }
+}
+
+.recentExpenditures_topGroup__g8SA9 {
+  margin: 0.5rem 0;
+}
+
+.recentExpenditures_expenditureNameAndAmount__ZvCVy {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recentExpenditures_expenditureTarget__YJzpC {
+  margin-right: 0.25rem;
+}
+
+.recentExpenditures_expenditureDescription__lIO2M {
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.recentExpenditures_tableCardContent__eOzY2 {
+  padding: 1rem;
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/expenditures.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+.expenditures_card___CReK {
+  grid-area: byParty;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.expenditures_svgWrapper__U_i6A {
+  overflow: hidden;
+}
+
+.expenditures_growWrapper__4PQVH {
+  flex-grow: 1;
+}
+
+.expenditures_svg__4Rmmm {
+  width: 100%;
+  height: 100%;
+  fill: var(--main-text);
+}
+
+.expenditures_svgText__AjwPm {
+  fill: var(--main-text);
+}
+
+.expenditures_expendituresBarLabel__C_cfc {
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+          hyphens: auto;
+  padding: 0.25rem;
+  font-size: 0.8rem;
+  color: var(--color-slate-200);
+}
+
+.expenditures_expendituresBarLabelOffBar__JKYNk {
+  display: flex;
+  height: 100%;
+  align-items: flex-end;
+  color: var(--main-text);
+}
+
+.expenditures_expendituresBarLabelSpan__TrD6z {
+  min-width: 0;
+}
+
+.expenditures_supportOpposeLabel__fO3i_ {
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.expenditures_skeletonBar__hKHhy {
+  fill: var(--chart-skeleton);
+}
+
+.expenditures_partyLabel__X4mNE {
+  text-align: center;
+  font-weight: bold;
+}
+
+.expenditures_footerLink__3tEKg {
+  justify-self: flex-end;
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/tables.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.tables_inheritBorderRadius__GrU0R {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+
+.tables_superPacCard__3x8gD,
+.tables_influencedCard__hOZLR,
+.tables_recentExpendituresCard__21K6A,
+.tables_qpqCard__Et6jN {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.tables_influencedCard__hOZLR {
+  grid-area: influencedCard;
+}
+
+.tables_superPacCard__3x8gD {
+  grid-area: superPacCard;
+}
+
+.tables_superPacTable__MlaU8,
+.tables_influencedTable__yQjQU {
+  width: 100%;
+  flex-grow: 1;
+}
+
+.tables_superPacTableHeader__kE5id,
+.tables_influencedTableHeader__UXV4X {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: var(--card-background);
+  border-radius: inherit;
+}
+
+.tables_superPacRow__eLjzo,
+.tables_influencedTableRow__XWjvT,
+.tables_oppositionSpendingRow__I8e5g,
+.tables_beneficiariesRow__9radT,
+.tables_qpqRow__C66S9 {
+  &:nth-child(odd) {
+    background: var(--table-background-secondary);
+  }
+}
+
+.tables_superPacErrorRow__pG2AW {
+  height: 10rem;
+  text-align: center;
+}
+
+.tables_superPacCryptoRow__oDT_I {
+  background-color: var(--table-highlight-color);
+}
+
+.tables_superPacTableCellMinWidth__VfmFl {
+  min-width: 7rem;
+}
+
+.tables_tableCardContent__8LujH {
+  padding: 1rem;
+}
+
+.tables_viewMoreLinks__J4SPu {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 0.25rem;
+}
+
+.tables_viewMoreLink__LMjyI:not(:last-child) {
+  margin-right: 1rem;
+}
+
+/* Fallback for very small viewports */
+.tables_influencedList__oqXEJ {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.tables_influencedRow__oasjy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+  white-space-collapse: preserve;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  gap: 0.5rem 0;
+}
+
+.tables_influencedRowOutcome__17FQe {
+  margin-top: 0.5rem;
+}
+
+.tables_goalIconWrapper__ZKUy_ {
+  display: inline-flex;
+  width: 0.9em;
+  height: 0.7rem;
+  align-items: center;
+}
+
+@media (max-width: 1000px) {
+  .tables_tableCellCollapse1__I5H7R {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .tables_tableCellCollapse2__Md4zA {
+    display: none;
+  }
+}
+

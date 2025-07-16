@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "run-script": "node script.js"
+    "scrape": "node scrape.js",
+    "scrape-assets": "node scrape-assets.js",
+    "replace-fonts": "node replace-fonts.js"
   },
   "keywords": [],
   "author": "",

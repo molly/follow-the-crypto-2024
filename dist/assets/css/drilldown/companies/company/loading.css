@@ -1,0 +1,428 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/individualOrCompany/individualOrCompany.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************/
+.individualOrCompany_contributionRow__UyGvn {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+
+  &:nth-child(even) {
+    background: var(--table-background-secondary);
+  }
+}
+
+.individualOrCompany_contributionSummary__JpZwT {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.individualOrCompany_contributionBlock__tjltC {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.individualOrCompany_contributionsContainer__YakpE {
+  display: flex;
+  flex-direction: column;
+}
+
+.individualOrCompany_contributionSubRow__x_Mul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1rem;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.individualOrCompany_subRowCurrency__rM8_5 {
+  color: var(--secondary-text);
+}
+
+.individualOrCompany_contributionCommittee__owcn9 {
+  font-weight: bold;
+}
+
+.individualOrCompany_aliasAndDate__taQdU {
+  align-items: center;
+}
+
+.individualOrCompany_contributionDate__EGjpw {
+  font-size: 1rem;
+  align-self: center;
+  white-space-collapse: preserve;
+}
+
+.individualOrCompany_topLevelContribution__vMAUd {
+  color: var(--main-text);
+}
+
+.individualOrCompany_committeeDetails__fy_7v {
+  color: var(--secondary-text);
+}
+
+.individualOrCompany_committeeDetail__z1PiI:not(:last-child):after {
+  content: " | ";
+}
+
+.individualOrCompany_svgWrapper__q8bKO {
+  overflow: hidden;
+}
+
+.individualOrCompany_svg__Hl9iW {
+  width: 100%;
+  height: 100%;
+  fill: var(--main-text);
+}
+
+.individualOrCompany_skeletonBar__0z2Sc {
+  fill: var(--chart-skeleton);
+}
+
+.individualOrCompany_partyLabel__dBnu7 {
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/shared.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.shared_mainLayout__4NX_F {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.shared_mainWithHeader__yGRcu {
+  margin-top: 1rem;
+}
+
+.shared_accent-text__nK7Vn {
+  color: transparent;
+  text-shadow: 0.1rem 0.1rem var(--accent);
+  text-stroke: 1px var(--text-stroke);
+  -webkit-text-stroke: 1px var(--text-stroke);
+}
+
+.shared_title__A8PMZ {
+  text-shadow: 0.25rem 0.25rem var(--accent);
+  font-size: clamp(2rem, 10vw, 8rem);
+  text-align: center;
+  margin: 0;
+}
+
+.shared_titleH2__rBo8F {
+  font-size: clamp(2rem, 8vw, 5rem);
+}
+
+.shared_titleH3__db_ED {
+  font-size: clamp(2rem, 6vw, 4rem);
+}
+
+.shared_card__vLMY7 {
+  background: var(--card-background);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--card-border);
+  padding: 1rem;
+}
+
+.shared_errorCardContent__DJ6u_ {
+  height: 100%;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.shared_errorCardContentStandalone__HsqZZ {
+  height: 100%;
+  padding: 1rem;
+  min-height: 5rem;
+}
+
+.shared_cardWithTable__88_dt {
+  padding: 0;
+}
+
+.shared_smallCard___qBml {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-width: 15rem;
+  max-width: 25rem;
+}
+
+.shared_smallCardSkeleton__eKdyb {
+  display: flex;
+  justify-content: center;
+}
+
+.shared_constrainedWrapper__Bj9t2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: inherit;
+  width: 100%;
+}
+
+.shared_constrainWidth__Mbrf_ {
+  max-width: 40rem;
+  width: 100%;
+  height: 100%;
+}
+
+.shared_highlight__1FBBy {
+  padding: 0.25rem 0 0.5rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.shared_plainList__28QPz {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.shared_plainListItem__aIqSo {
+  padding: 0.5rem 0;
+}
+
+.shared_hasFade__X3XVU {
+  -webkit-mask-size: 100% 100%;
+          mask-size: 100% 100%;
+  -webkit-mask-position:
+    0 0,
+    100% 0;
+          mask-position:
+    0 0,
+    100% 0;
+  -webkit-mask-repeat: no-repeat, no-repeat;
+          mask-repeat: no-repeat, no-repeat;
+}
+
+.shared_goalAccomplished__VoGi0,
+.shared_checkmark__oVQoP {
+  fill: green;
+  max-width: 1rem;
+}
+
+.shared_goalFailed__Z8U0c,
+.shared_xMark__x6Jfx {
+  fill: red;
+  max-width: 1rem;
+}
+
+.shared_goalMixed__FPjTO {
+  fill: var(--main-text);
+  max-width: 1rem;
+  font-weight: bold;
+}
+
+.shared_goalInline__mCrjQ {
+  max-height: 100%;
+}
+
+@media (min-width: 500px) {
+  .shared_highlight__1FBBy {
+    font-size: clamp(2rem, 5vw, 3rem);
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 1200px) {
+  .shared_mainLayout__4NX_F {
+    padding: 0.5rem 2rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .shared_mainLayout__4NX_F {
+    padding: 0.5rem 4rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  .shared_mainLayout__4NX_F {
+    padding: 0.5rem 6rem;
+  }
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/(drilldown)/companies/[company]/page.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************/
+.page_page__NrGhg {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column-reverse;
+  gap: 1rem;
+  width: 100%;
+}
+
+.page_companyLogoAndName__o1IWh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  width: 100%;
+}
+
+.page_companyLogoWrapper__Feo2i {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid var(--main-text);
+  background-color: var(--logo-background);
+}
+
+.page_companyText__KctfL {
+  text-align: center;
+}
+
+.page_companyLogoSkeleton__Kwb8s {
+  flex-shrink: 0;
+}
+
+.page_companyLogoImage__OcEBl {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 1rem;
+  object-fit: contain;
+}
+
+.page_companyName__H9ICk {
+  text-align: center;
+  margin: 0;
+}
+
+.page_plainList__CgvCy {
+  display: inline;
+  margin: 0;
+}
+
+.page_plainListItem__BUBWV {
+  display: inline;
+  &:not(:last-child):after {
+    content: ", ";
+  }
+}
+
+.page_descriptionSkeleton__q3FW7 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page_description__6G_om {
+  margin-top: 1rem;
+}
+
+.page_contributionSection__f6xgw {
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.page_contributionSectionHeader__XLp3_ {
+  padding: 0 1rem;
+  font-size: 1.5rem;
+}
+
+.page_spendingWrapper__lMwlE {
+}
+
+.page_spendingByPartySection__wG8nQ {
+  padding: 1rem;
+  width: 100%;
+  max-width: 40rem;
+}
+
+@media (min-width: 576px) {
+  .page_companyLogoAndName__o1IWh {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .page_companyName__H9ICk,
+  .page_companyText__KctfL {
+    text-align: left;
+  }
+
+  .page_descriptionSkeleton__q3FW7 {
+    align-items: flex-start;
+  }
+}
+
+@media (min-width: 1000px) {
+  .page_page__NrGhg {
+    flex-direction: row;
+  }
+
+  .page_contributionSection__f6xgw {
+    width: 66%;
+  }
+
+  .page_spendingWrapper__lMwlE {
+    width: 33%;
+  }
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/skeletons/skeleton.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes skeleton_pulse__ZQ037 {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: -135% 0%;
+  }
+}
+
+.skeleton_pulse__ZQ037 {
+  background: linear-gradient(
+    -90deg,
+    var(--skeleton-start) 0%,
+    var(--skeleton-end) 50%,
+    var(--skeleton-start) 100%
+  );
+  background-size: 400% 400%;
+  animation: skeleton_pulse__ZQ037 1.2s ease-in-out infinite;
+}
+
+.skeleton_cardPulse__8Jcqz {
+  background: linear-gradient(
+    -90deg,
+    var(--skeleton-on-card-start) 0%,
+    var(--skeleton-on-card-end) 50%,
+    var(--skeleton-on-card-start) 100%
+  );
+  background-size: 400% 400%;
+  animation: skeleton_pulse__ZQ037 1.2s ease-in-out infinite;
+}
+
+.skeleton_skeletonLayout__9ROdn {
+  width: 100%;
+  height: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.skeleton_skeleton__OW6su {
+}
+
+.skeleton_skeletonCard__1N4Yg {
+}
+
