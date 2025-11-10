@@ -6,8 +6,8 @@ import prettier from "prettier";
 
 const BASE_URL = "http://localhost:3000";
 const ASSET_PREFIX = "/_next/static/css/app/";
-const OUTPUT_DIR = "./dist/assets/css";
-const DIST_DIR = "./dist";
+const OUTPUT_DIR = "./dist-static/assets/css";
+const DIST_DIR = "./dist-static";
 
 const assetUrls = [
   "/_next/static/css/app/layout.css?v=1752689634702",

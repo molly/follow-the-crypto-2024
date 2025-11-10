@@ -5,7 +5,7 @@ import prettier from "prettier";
 const require = createRequire(import.meta.url);
 const cheerio = require("cheerio");
 
-const DIST_DIR = "./dist";
+const DIST_DIR = "./dist-static";
 const FONT_EXTENSIONS = [".woff2", ".woff", ".ttf", ".otf"];
 const REPLACEMENT_URL = "/assets/font.woff2";
 
