@@ -7,7 +7,7 @@ const cheerio = require("cheerio");
 
 const DIST_DIR = "./dist";
 const FONT_EXTENSIONS = [".woff2", ".woff", ".ttf", ".otf"];
-const REPLACEMENT_URL = "/assets/font.woff2";
+const REPLACEMENT_URL = "https://www.followthecrypto.org/assets/font.woff2";
 
 const getAllHtmlFiles = async (dir) => {
   const entries = await fs.readdir(dir, { withFileTypes: true });
