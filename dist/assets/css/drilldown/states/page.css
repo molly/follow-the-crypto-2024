@@ -1,0 +1,402 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/shared.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.shared_mainLayout__4NX_F {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.shared_mainWithHeader__yGRcu {
+  margin-top: 1rem;
+}
+
+.shared_accent-text__nK7Vn {
+  color: transparent;
+  text-shadow: 0.1rem 0.1rem var(--accent);
+  text-stroke: 1px var(--text-stroke);
+  -webkit-text-stroke: 1px var(--text-stroke);
+}
+
+.shared_title__A8PMZ {
+  text-shadow: 0.25rem 0.25rem var(--accent);
+  font-size: clamp(2rem, 10vw, 8rem);
+  text-align: center;
+  margin: 0;
+}
+
+.shared_titleH2__rBo8F {
+  font-size: clamp(2rem, 8vw, 5rem);
+}
+
+.shared_titleH3__db_ED {
+  font-size: clamp(2rem, 6vw, 4rem);
+}
+
+.shared_card__vLMY7 {
+  background: var(--card-background);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid var(--card-border);
+  padding: 1rem;
+}
+
+.shared_errorCardContent__DJ6u_ {
+  height: 100%;
+  padding: 0 1rem 1rem 1rem;
+}
+
+.shared_errorCardContentStandalone__HsqZZ {
+  height: 100%;
+  padding: 1rem;
+  min-height: 5rem;
+}
+
+.shared_cardWithTable__88_dt {
+  padding: 0;
+}
+
+.shared_smallCard___qBml {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-width: 15rem;
+  max-width: 25rem;
+}
+
+.shared_smallCardSkeleton__eKdyb {
+  display: flex;
+  justify-content: center;
+}
+
+.shared_constrainedWrapper__Bj9t2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: inherit;
+  width: 100%;
+}
+
+.shared_constrainWidth__Mbrf_ {
+  max-width: 40rem;
+  width: 100%;
+  height: 100%;
+}
+
+.shared_highlight__1FBBy {
+  padding: 0.25rem 0 0.5rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.shared_plainList__28QPz {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.shared_plainListItem__aIqSo {
+  padding: 0.5rem 0;
+}
+
+.shared_hasFade__X3XVU {
+  -webkit-mask-size: 100% 100%;
+          mask-size: 100% 100%;
+  -webkit-mask-position:
+    0 0,
+    100% 0;
+          mask-position:
+    0 0,
+    100% 0;
+  -webkit-mask-repeat: no-repeat, no-repeat;
+          mask-repeat: no-repeat, no-repeat;
+}
+
+.shared_goalAccomplished__VoGi0,
+.shared_checkmark__oVQoP {
+  fill: green;
+  max-width: 1rem;
+}
+
+.shared_goalFailed__Z8U0c,
+.shared_xMark__x6Jfx {
+  fill: red;
+  max-width: 1rem;
+}
+
+.shared_goalMixed__FPjTO {
+  fill: var(--main-text);
+  max-width: 1rem;
+  font-weight: bold;
+}
+
+.shared_goalInline__mCrjQ {
+  max-height: 100%;
+}
+
+@media (min-width: 500px) {
+  .shared_highlight__1FBBy {
+    font-size: clamp(2rem, 5vw, 3rem);
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 1200px) {
+  .shared_mainLayout__4NX_F {
+    padding: 0.5rem 2rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .shared_mainLayout__4NX_F {
+    padding: 0.5rem 4rem;
+  }
+}
+
+@media (min-width: 2000px) {
+  .shared_mainLayout__4NX_F {
+    padding: 0.5rem 6rem;
+  }
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/home/chloroplethMap.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************/
+.chloroplethMap_mapWrapper__grfF3 {
+  position: relative;
+}
+
+.chloroplethMap_svg__4YctG {
+  fill: var(--map-background);
+  stroke: var(--secondary-text);
+}
+
+.chloroplethMap_svgText__go6Yr {
+  fill: var(--main-text);
+  stroke: none;
+}
+
+.chloroplethMap_legend__crTnY {
+  stroke: var(--secondary-text);
+}
+
+.chloroplethMap_activeState__7M_qR {
+  font-weight: bold;
+}
+
+.chloroplethMap_svgSkeleton__C5cYQ {
+  fill: transparent;
+  stroke: var(--color-slate-300);
+}
+
+.chloroplethMap_mapLoadingError__DrC_V {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  max-width: 15rem;
+  max-height: 5rem;
+}
+
+.chloroplethMap_stateFillError__qD4jQ {
+  fill: rgba(0, 0, 0, 0);
+}
+
+.chloroplethMap_stateFill0__uJQ62 {
+  fill: var(--map-background);
+}
+
+.chloroplethMap_stateFill1__Dytku {
+  fill: var(--color-blue-50);
+}
+
+.chloroplethMap_stateFill2__o8UME {
+  fill: var(--color-blue-100);
+}
+
+.chloroplethMap_stateFill3__4KLRZ {
+  fill: var(--color-blue-200);
+}
+
+.chloroplethMap_stateFill4__gAVWX {
+  fill: var(--color-blue-300);
+}
+
+.chloroplethMap_stateFill5__pgmo_ {
+  fill: var(--color-blue-400);
+}
+
+.chloroplethMap_stateFill6__LQj51 {
+  fill: var(--color-blue-600);
+}
+
+.chloroplethMap_stateFill7__CZHGE {
+  fill: var(--color-blue-800);
+}
+
+.chloroplethMap_stateFill1__Dytku,
+.chloroplethMap_stateFill2__o8UME,
+.chloroplethMap_stateFill3__4KLRZ,
+.chloroplethMap_stateFill4__gAVWX,
+.chloroplethMap_stateFill5__pgmo_,
+.chloroplethMap_stateFill6__LQj51,
+.chloroplethMap_stateFill7__CZHGE {
+  cursor: pointer;
+}
+
+.chloroplethMap_stateLink__dF29p {
+  &:hover,
+  &:focus,
+  &:active {
+    filter: brightness(0.9);
+    outline: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .chloroplethMap_svgSkeleton__C5cYQ {
+    stroke: var(--secondary-text);
+  }
+
+  .chloroplethMap_stateFill1__Dytku,
+  .chloroplethMap_stateFill2__o8UME,
+  .chloroplethMap_stateFill3__4KLRZ,
+  .chloroplethMap_stateFill4__gAVWX,
+  .chloroplethMap_stateFill5__pgmo_,
+  .chloroplethMap_stateFill6__LQj51,
+  .chloroplethMap_stateFill7__CZHGE {
+    fill: var(--color-blue-400);
+  }
+
+  .chloroplethMap_stateFill1__Dytku {
+    fill-opacity: 0.2;
+  }
+
+  .chloroplethMap_stateFill2__o8UME {
+    fill-opacity: 0.3;
+  }
+
+  .chloroplethMap_stateFill3__4KLRZ {
+    fill-opacity: 0.4;
+  }
+
+  .chloroplethMap_stateFill4__gAVWX {
+    fill-opacity: 0.5;
+  }
+
+  .chloroplethMap_stateFill5__pgmo_ {
+    fill-opacity: 0.6;
+  }
+
+  .chloroplethMap_stateFill6__LQj51 {
+    fill-opacity: 0.8;
+  }
+
+  .chloroplethMap_stateFill7__CZHGE {
+    fill-opacity: 1;
+  }
+
+  .chloroplethMap_stateLink__dF29p {
+    &:hover,
+    &:focus,
+    &:active {
+      filter: brightness(1.3);
+    }
+  }
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/(drilldown)/states/page.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+.page_page__n1nyv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.page_mapContainer__kYAKI {
+  width: 100%;
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.page_statesTableCard__URIjX {
+  min-width: 25rem;
+}
+
+.page_statesTableHeader__voDUz {
+  padding: 1rem 1rem 0 1rem;
+}
+
+.page_statesTable__Hy25x {
+  width: 100%;
+}
+
+.page_headerRow__z_FNR {
+  font-weight: bold;
+}
+
+@media (min-width: 576px) {
+  .page_mapContainer__kYAKI {
+    padding: 2rem;
+  }
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./src/app/components/skeletons/skeleton.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes skeleton_pulse__ZQ037 {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: -135% 0%;
+  }
+}
+
+.skeleton_pulse__ZQ037 {
+  background: linear-gradient(
+    -90deg,
+    var(--skeleton-start) 0%,
+    var(--skeleton-end) 50%,
+    var(--skeleton-start) 100%
+  );
+  background-size: 400% 400%;
+  animation: skeleton_pulse__ZQ037 1.2s ease-in-out infinite;
+}
+
+.skeleton_cardPulse__8Jcqz {
+  background: linear-gradient(
+    -90deg,
+    var(--skeleton-on-card-start) 0%,
+    var(--skeleton-on-card-end) 50%,
+    var(--skeleton-on-card-start) 100%
+  );
+  background-size: 400% 400%;
+  animation: skeleton_pulse__ZQ037 1.2s ease-in-out infinite;
+}
+
+.skeleton_skeletonLayout__9ROdn {
+  width: 100%;
+  height: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.skeleton_skeleton__OW6su {
+}
+
+.skeleton_skeletonCard__1N4Yg {
+}
+
